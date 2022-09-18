@@ -17,6 +17,7 @@ import (
 	"github.com/botlabs-gg/yagpdb/v2/stdcommands/customembed"
 	"github.com/botlabs-gg/yagpdb/v2/stdcommands/dadjoke"
 	"github.com/botlabs-gg/yagpdb/v2/stdcommands/dcallvoice"
+	"github.com/botlabs-gg/yagpdb/v2/stdcommands/exchange"
 	"github.com/botlabs-gg/yagpdb/v2/stdcommands/define"
 	"github.com/botlabs-gg/yagpdb/v2/stdcommands/dogfact"
 	"github.com/botlabs-gg/yagpdb/v2/stdcommands/findserver"
@@ -101,6 +102,7 @@ func (p *Plugin) AddCommands() {
 		xkcd.Command,
 		howlongtobeat.Command,
 		inspire.Command,
+		exchange.Command,
 
 		// Maintenance
 		stateinfo.Command,
